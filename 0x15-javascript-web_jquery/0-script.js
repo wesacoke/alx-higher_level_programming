@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-document.querySelector('header').style.color = '#FF0000';
-=======
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,4 +13,3 @@ document.querySelector('header').style.color = '#FF0000';
     <script type="text/javascript" src="0-script.js"></script>
   </body>
 </html>
->>>>>>> 570628e9fc8c3e6ddf17874a3950e0f726643115
