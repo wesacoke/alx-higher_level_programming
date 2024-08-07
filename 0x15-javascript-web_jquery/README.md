@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x15. JavaScript - Web jQuery
 Concepts
 For this project, we expect you to look at these concepts:
@@ -22,3 +23,6 @@ What went wrong? Troubleshooting JavaScript
 JQuery
 JQuery API
 JQuery Ajax
+=======
+0x15-javascript-web_jquery
+>>>>>>> 570628e9fc8c3e6ddf17874a3950e0f726643115
