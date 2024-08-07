@@ -1,10 +1,11 @@
-$(document).ready(() => {
-  const URL = 'https://www.fourtonfish.com/hellosalut/hello/';
-
-  $('#btn_translate').click(() => {
-    const langCode = $('#language_code').val();
-    $.get(`${URL}?lang=${langCode}`, function (data) {
-      $('#hello').text(data.hello);
+$(document).ready(function () {
+    $('INPUT#btn_translate').click(function () {
+      const languageCode = $('INPUT#language_code').val();
+      $.get(
+        'https://www.fourtonfish.com/hellosalut/hello/?lang=' + languageCode,
+        function (data) {
+          $('DIV#hello').text(data.hello);
+        }
+      );
     });
   });
-});
